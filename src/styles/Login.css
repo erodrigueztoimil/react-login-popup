@@ -3,5 +3,22 @@
 }
 
 .open {
-  display: block;
+  border: 1px solid #000;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.open h3 {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.open input {
+  margin: 5px;
+}
+
+.open input[type=submit] {
+  padding: 10px;
 }

@@ -22,7 +22,7 @@ class Login extends Component {
     }
     return (
       <div className='login'>
-        <Button click={this.buttonClickHandler.bind(this)}/>
+        <Button text='Log In' click={this.buttonClickHandler.bind(this)} />
         <Popup class={classes}/>
       </div>
     );
